@@ -1,0 +1,16 @@
+{
+    "name": "Game Deal Finder",
+    "short_name": "GDF",
+    "lang": "en-GB",
+    "start_url": "/index.html",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "logoicon",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pwagamedealfinder-lf.web.app/style.css">
+    <title>Game Deal Finder</title>
+
+</head>
+
+<body>
+    <nav>
+      <ul class="nav-bar">
+          <li> <a href="https://pwagamedealfinder-lf.web.app/index.html">Home</a></li>
+          <li> <a href="https://pwagamedealfinder-lf.web.app/search.html">Search</a></li>
+          <li> <a href="https://pwagamedealfinder-lf.web.app/wishlist.html">Wishlist</a></li>
+          <li> <a href="https://pwagamedealfinder-lf.web.app/ranking.html">Rankings</a></li>
+          <li> <a href="https://pwagamedealfinder-lf.web.app/settings.html">Settings</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Game Deal Finder</h1>
+    </header>
+
+    <a href="https://pwagamedealfinder-lf.web.app/index.html">
+      <img src="https://pwagamedealfinder-lf.web.app/images/logo.png" alt="Website Icon" class="center">
+    </a>
+
+    <p id="intro">This price comparison application uses Cheapsharks API to automatically keep track of prices across multiple stores 
+      including Steam, GreenManGaming, Fanatical, and many others. Using this application you can browse a variety of digital PC games and
+      view the prices they are available for from different storefronts to help you save as much money as possible.</p>
+
+    <div style="overflow-x:auto;">
+      <table class="dealsTable" width="device-width">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Game Price</th>
+                <th>Sale Price</th>
+                <th>Savings</th>
+                <th>Image</th>
+                <th>Store</th>
+            </tr>
+        </thead>
+        <tbody id="output">
+            <tr>
+                <td colspan="6">Loading, please wait…</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      <p>Powered by <a href="https://apidocs.cheapshark.com/">Cheapshark API</a></p>
+    </footer>
+
+    <script src="https://pwagamedealfinder-lf.web.app/scripts/getDeals.js"></script>
+</body>
+</html>
